@@ -2,10 +2,6 @@
 
 A responsive and visually appealing React.js application that demonstrates infinite scrolling using a public API (JSONPlaceholder).
 
-[🔗 Live Demo (optional)](https://your-live-demo-link.com)
-
----
-
 ## 🚀 Features
 
 - 🔄 **Infinite Scroll**: Loads and appends new content as you scroll.
