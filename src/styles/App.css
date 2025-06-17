@@ -1,0 +1,145 @@
+/* Reset & Base Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.App {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Theme */
+.theme-light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.theme-dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.theme-dark .card {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+.theme-dark .search-bar {
+  background: #333;
+  border: 1px solid #444;
+  color: #fff;
+}
+
+/* Container Grid */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+  text-align: left;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.card h3 {
+  font-size: 1rem;
+  line-height: 1.3;
+  margin: 0;
+  color: inherit;
+}
+
+/* Search Bar */
+.search-bar {
+  margin: 1rem auto 2rem auto;
+  padding: 0.6rem 1rem;
+  width: 90%;
+  max-width: 400px;
+  font-size: 1rem;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.search-bar:focus {
+  border-color: #007bff;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  transition: background 0.2s ease;
+}
+
+.theme-toggle:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Loader, Error, Empty */
+.loader,
+.error,
+.empty {
+  margin: 2rem auto;
+  font-size: 1.1rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.empty {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: #888;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
