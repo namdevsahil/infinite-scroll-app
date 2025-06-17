@@ -63,7 +63,7 @@ Assignment: DevifyX Infinite Scroll Setup
 ## 📸 Screenshots
 
 ### 🌞 Light Mode
-![Light Mode](./public/screenshots/light-mode.png)
+![Light Mode](./public/screenshots/LightMode.png)
 
 ### 🌙 Dark Mode
-![Dark Mode](./public/screenshots/dark-mode.png)
+![Dark Mode](./public/screenshots/DarkMode.png)
