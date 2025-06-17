@@ -58,3 +58,12 @@ Requires Node.js and npm installed.
 Submitted by: Sahil Namdev
 GitHub Repo: https://github.com/namdevsahil/infinite-scroll-app
 Assignment: DevifyX Infinite Scroll Setup
+
+
+## 📸 Screenshots
+
+### 🌞 Light Mode
+![Light Mode](./public/screenshots/light-mode.png)
+
+### 🌙 Dark Mode
+![Dark Mode](./public/screenshots/dark-mode.png)
